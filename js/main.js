@@ -32,7 +32,7 @@ function addClient() {
     btnRegister.nextElementSibling.innerHTML = "Success";
     btnRegister.nextElementSibling.classList.remove("text-danger");
   } else {
-    btnRegister.nextElementSibling.innerHTML = "Valid inpute";
+    btnRegister.nextElementSibling.innerHTML = "Invalid inpute";
     btnRegister.nextElementSibling.classList.add("text-danger");
   }
 }
