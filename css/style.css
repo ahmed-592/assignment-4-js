@@ -1,0 +1,71 @@
+/*
+* Prefixed by https://autoprefixer.github.io
+* PostCSS: v8.4.14,
+* Autoprefixer: v10.4.7
+* Browsers: last 4 version
+*/
+
+body {
+  background-color: #24353f;
+  font-family: "Titillium Web", sans-serif;
+}
+h1 {
+  color: #17a2b8;
+
+  font-weight: 600;
+}
+.bg-form {
+  background-color: #24353f;
+  -webkit-box-shadow: -5px 2px 54px -9px rgba(0, 0, 0, 1);
+          box-shadow: -5px 2px 54px -9px rgba(0, 0, 0, 1);
+  padding: 0 20px;
+}
+
+input {
+  background-color: inherit !important;
+  color: #fff !important;
+}
+input::-webkit-input-placeholder {
+  color: rgba(255, 255, 255, 0.5) !important;
+}
+input::-moz-placeholder {
+  color: rgba(255, 255, 255, 0.5) !important;
+}
+input:-ms-input-placeholder {
+  color: rgba(255, 255, 255, 0.5) !important;
+}
+input::-ms-input-placeholder {
+  color: rgba(255, 255, 255, 0.5) !important;
+}
+input::placeholder {
+  color: rgba(255, 255, 255, 0.5) !important;
+}
+input:focus {
+  -webkit-box-shadow: none !important;
+          box-shadow: none !important;
+}
+button:focus {
+  -webkit-box-shadow: 0 0 0 0.2rem #17a2b880;
+          box-shadow: 0 0 0 0.2rem #17a2b880;
+}
+button:hover {
+  color: #fff !important;
+}
+p a:hover {
+  text-decoration: underline !important;
+}
+
+nav {
+  background-color: #24353f !important;
+  -webkit-box-shadow: -5px 2px 54px -9px rgba(0, 0, 0, 1);
+          box-shadow: -5px 2px 54px -9px rgba(0, 0, 0, 1);
+}
+
+button.btn-outline-warning:focus {
+  -webkit-box-shadow: rgba(255, 193, 7, 0.392) 0px 0px 0px 2.49653px;
+          box-shadow: rgba(255, 193, 7, 0.392) 0px 0px 0px 2.49653px;
+}
+
+span {
+  color: rgb(40, 223, 40);
+}
